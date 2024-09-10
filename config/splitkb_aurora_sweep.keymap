@@ -142,7 +142,7 @@
 &kp F1             &kp F4          &kp F7  &kp F10  &kp LC(X)    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS      &kp MINUS
 &kp F2             &kp F5          &kp F8  &kp F11  &kp LC(C)    &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTERISK  &kp SLASH
 &mt F3 LEFT_SHIFT  &kp F6          &kp F9  &kp F12  &kp LC(V)    &kp N7        &kp N8        &kp N9        &kp N0        &mt ENTER LEFT_SHIFT
-&mo 1              &layer_default                                                                          &kp SPACE     &kp BACKSPACE
+&trans             &layer_default                                                                          &kp SPACE     &kp BACKSPACE
             >;
         };
 
@@ -151,7 +151,7 @@
 &kp GRAVE             &none          &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LC(X)    &kp LG(LEFT)    &kp LG(DOWN_ARROW)  &kp LG(UP_ARROW)  &kp LG(RIGHT_ARROW)  &kp LS(GRAVE)
 &none                 &none          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LC(C)    &kp LEFT_ARROW  &kp DOWN_ARROW      &kp UP_ARROW      &kp RIGHT            &kp SQT
 &mt LEFT_SHIFT ENTER  &none          &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LC(V)    &kp SEMICOLON   &kp EXCLAMATION     &kp COMMA         &kp PERIOD           &mt RIGHT_SHIFT ENTER
-&kp SPACE             &kp BACKSPACE                                                                                                                  &layer_default       &mo 2
+&kp SPACE             &kp BACKSPACE                                                                                                                  &layer_default       &trans
             >;
         };
 
@@ -169,7 +169,7 @@
 &kp N1  &kp N2         &kp N3  &kp N4  &kp N5    &none  &none  &none  &none  &none
 &kp N6  &kp N7         &kp N8  &kp N9  &kp N0    &none  &none  &none  &none  &none
 &kp L   &kp O          &kp M   &kp G   &kp B     &none  &none  &none  &none  &none
-&mo 4   &layer_gaming                                                 &none  &none
+&trans  &layer_gaming                                                 &none  &none
             >;
         };
     };
