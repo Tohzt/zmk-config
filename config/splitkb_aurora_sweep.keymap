@@ -86,11 +86,6 @@
             bindings = <&kp UNDERSCORE>;
             key-positions = <31 32>;
         };
-
-        combo_temp_lefft {
-            bindings = <&temp_left_layer>;
-            key-positions = <30>;
-        };
     };
 
     macros {
