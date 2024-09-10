@@ -171,7 +171,7 @@
 &kp TAB           &kp Q      &kp W  &kp E  &kp R    &rgb_ug RGB_COLOR_HSB(0,97,48)  &rgb_ug RGB_COLOR_HSB(58,93,49)  &rgb_ug RGB_COLOR_HSB(109,98,49)  &rgb_ug RGB_COLOR_HSB(177,95,50)  &rgb_ug RGB_COLOR_HSB(242,91,48)
 &kp LEFT_SHIFT    &kp A      &kp S  &kp D  &kp F    &none                           &rgb_ug RGB_HUI                  &rgb_ug RGB_BRI                   &rgb_ug RGB_EFF                   &rgb_ug RGB_SPI
 &kp LEFT_CONTROL  &kp Z      &kp X  &kp C  &kp V    &none                           &rgb_ug RGB_HUD                  &rgb_ug RGB_BRD                   &rgb_ug RGB_EFR                   &rgb_ug RGB_SPD
-&layer_gaming_2   &kp SPACE                                                                                                                            &bl BL_CYCLE                      &rgb_ug RGB_COLOR_HSB(300,100,51)
+&mo 4             &kp SPACE                                                                                                                            &bl BL_CYCLE                      &rgb_ug RGB_COLOR_HSB(300,100,51)
             >;
         };
 
@@ -180,7 +180,7 @@
 &kp N1  &kp N2         &kp N3  &kp N4  &kp N5    &trans  &trans  &trans  &trans  &trans
 &kp N6  &kp N7         &kp N8  &kp N9  &kp N0    &trans  &trans  &trans  &trans  &trans
 &kp L   &kp O          &kp B   &kp N   &kp M     &trans  &trans  &trans  &trans  &trans
-&trans  &layer_gaming                                                    &trans  &trans
+&none   &layer_gaming                                                    &trans  &trans
             >;
         };
     };
