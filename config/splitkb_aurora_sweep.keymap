@@ -141,7 +141,7 @@
             bindings = <
 &kp F1             &kp F4          &kp F7  &kp F10  &kp LC(X)    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS      &kp MINUS
 &kp F2             &kp F5          &kp F8  &kp F11  &kp LC(C)    &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTERISK  &kp SLASH
-&mt F3 LEFT_SHIFT  &kp F6          &kp F9  &kp F12  &kp LC(V)    &kp N7        &kp N8        &kp N9        &kp N0        &mt ENTER LEFT_SHIFT
+&mt LEFT_SHIFT F3  &kp F6          &kp F9  &kp F12  &kp LC(V)    &kp N7        &kp N8        &kp N9        &kp N0        &mt LEFT_SHIFT ENTER
 &trans             &layer_default                                                                          &kp SPACE     &kp BACKSPACE
             >;
         };
