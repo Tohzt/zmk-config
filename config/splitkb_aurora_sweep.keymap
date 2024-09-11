@@ -142,24 +142,24 @@
 &kp F1             &kp F4          &kp F7  &kp F10  &kp LC(X)    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS      &kp MINUS
 &kp F2             &kp F5          &kp F8  &kp F11  &kp LC(C)    &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTERISK  &kp SLASH
 &mt LEFT_SHIFT F3  &kp F6          &kp F9  &kp F12  &kp LC(V)    &kp N7        &kp N8        &kp N9        &kp N0        &mt LEFT_SHIFT ENTER
-&trans             &layer_default                                                                          &kp SPACE     &kp BACKSPACE
+&trans             &layer_default                                                                          &kp KP_EQUAL  &kp N0
             >;
         };
 
         right_layer {
             bindings = <
-&kp GRAVE             &none          &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LC(X)    &kp LG(LEFT)    &kp LG(DOWN_ARROW)  &kp LG(UP_ARROW)  &kp LG(RIGHT_ARROW)  &kp LS(GRAVE)
-&none                 &none          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LC(C)    &kp LEFT_ARROW  &kp DOWN_ARROW      &kp UP_ARROW      &kp RIGHT            &kp SQT
-&mt LEFT_SHIFT ENTER  &none          &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LC(V)    &kp SEMICOLON   &kp EXCLAMATION     &kp COMMA         &kp PERIOD           &mt RIGHT_SHIFT ENTER
-&kp SPACE             &kp BACKSPACE                                                                                                                  &layer_default       &trans
+&kp GRAVE             &none          &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LC(X)    &kp LG(LEFT)     &kp LG(DOWN_ARROW)  &kp LG(UP_ARROW)  &kp LG(RIGHT_ARROW)  &kp LS(GRAVE)
+&none                 &none          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LC(C)    &kp LEFT_ARROW   &kp DOWN_ARROW      &kp UP_ARROW      &kp RIGHT            &kp SQT
+&mt LEFT_SHIFT ENTER  &none          &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LC(V)    &kp EXCLAMATION  &kp QUESTION        &kp COMMA         &kp PERIOD           &mt RIGHT_SHIFT ENTER
+&kp SPACE             &kp BACKSPACE                                                                                                                   &layer_default       &trans
             >;
         };
 
         game_layer {
             bindings = <
 &kp TAB           &kp Q      &kp I  &kp E  &kp R    &rgb_ug RGB_COLOR_HSB(0,97,48)  &rgb_ug RGB_COLOR_HSB(58,93,49)  &rgb_ug RGB_COLOR_HSB(109,98,49)  &rgb_ug RGB_COLOR_HSB(177,95,50)  &rgb_ug RGB_COLOR_HSB(242,91,48)
-&kp LEFT_SHIFT    &kp A      &kp W  &kp D  &kp F    &none                           &rgb_ug RGB_HUI                  &rgb_ug RGB_BRI                   &rgb_ug RGB_EFF                   &rgb_ug RGB_SPI
-&kp LEFT_CONTROL  &kp Z      &kp S  &kp C  &kp V    &none                           &rgb_ug RGB_HUD                  &rgb_ug RGB_BRD                   &rgb_ug RGB_EFR                   &rgb_ug RGB_SPD
+&kp LEFT_SHIFT    &kp A      &kp W  &kp D  &kp F    &rgb_ug RGB_SPI                 &rgb_ug RGB_HUI                  &rgb_ug RGB_BRI                   &rgb_ug RGB_EFF                   &none
+&kp LEFT_CONTROL  &kp Z      &kp S  &kp C  &kp V    &rgb_ug RGB_SPD                 &rgb_ug RGB_HUD                  &rgb_ug RGB_BRD                   &rgb_ug RGB_EFR                   &kp ENTER
 &mo 4             &kp SPACE                                                                                                                            &bl BL_CYCLE                      &rgb_ug RGB_COLOR_HSB(300,100,51)
             >;
         };
