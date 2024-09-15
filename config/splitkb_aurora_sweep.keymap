@@ -89,7 +89,7 @@
 
         combo_enter {
             bindings = <&kp ENTER>;
-            key-positions = <29 28>;
+            key-positions = <19 18>;
             timeout-ms = <50>;
             require-prior-idle-ms = <10>;
         };
