@@ -155,10 +155,10 @@
 
         right_layer {
             bindings = <
-&kp GRAVE             &none          &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LC(X)    &kp LG(LEFT)    &kp LG(DOWN_ARROW)  &kp LG(UP_ARROW)  &kp LG(RIGHT_ARROW)  &kp LS(GRAVE)
-&none                 &none          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LC(C)    &kp LEFT_ARROW  &kp DOWN_ARROW      &kp UP_ARROW      &kp RIGHT            &kp SQT
-&mt LEFT_SHIFT ENTER  &none          &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LC(V)    &kp SEMICOLON   &kp EXCLAMATION     &kp COMMA         &kp PERIOD           &kp SLASH
-&kp SPACE             &kp BACKSPACE                                                                                                                  &layer_default       &trans
+&kp GRAVE             &kp EXCLAMATION  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LC(X)    &kp LG(LEFT)    &kp LG(DOWN_ARROW)  &kp LG(UP_ARROW)  &kp LG(RIGHT_ARROW)  &kp LS(GRAVE)
+&kp SQT               &kp EQUAL        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LC(C)    &kp LEFT_ARROW  &kp DOWN_ARROW      &kp UP_ARROW      &kp RIGHT            &kp SQT
+&mt LEFT_SHIFT ENTER  &kp QUESTION     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LC(V)    &kp SEMICOLON   &kp EXCLAMATION     &kp COMMA         &kp PERIOD           &kp SLASH
+&kp SPACE             &kp BACKSPACE                                                                                                                    &layer_default       &trans
             >;
         };
 
