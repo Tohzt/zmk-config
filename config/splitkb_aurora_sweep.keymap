@@ -122,10 +122,10 @@
 
         left_layer {
             bindings = <
-&kp F1             &kp F4          &kp F7  &kp F10  &kp LC(X)    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS      &kp MINUS
-&kp F2             &kp F5          &kp F8  &kp F11  &kp LC(C)    &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTERISK  &kp SLASH
-&mt LEFT_SHIFT F3  &kp F6          &kp F9  &kp F12  &kp LC(V)    &kp N7        &kp N8        &kp N9        &kp N0        &kp EQUAL
-&trans             &layer_default                                                                          &kp KP_EQUAL  &kp N0
+&kp F1             &kp F4          &kp F7  &kp F10  &rgb_ug RGB_BRI    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS      &kp MINUS
+&kp F2             &kp F5          &kp F8  &kp F11  &rgb_ug RGB_TOG    &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTERISK  &kp SLASH
+&mt LEFT_SHIFT F3  &kp F6          &kp F9  &kp F12  &rgb_ug RGB_BRD    &kp N7        &kp N8        &kp N9        &kp N0        &kp EQUAL
+&trans             &layer_default                                                                                &kp KP_EQUAL  &kp N0
             >;
         };
 
