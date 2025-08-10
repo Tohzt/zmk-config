@@ -78,34 +78,6 @@
             bindings = <&kp QMARK &kp D &kp E &kp B &kp U &kp G &kp UNDER &kp M &kp O &kp D &kp E &kp EQUAL &kp T &kp R &kp U &kp E>;
             label = "DEBUG_MODE";
         };
-
-        layer_default: default_layer {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&rgb_ug RGB_COLOR_HSB(295,100,50) &to 0>;
-            label = "DEFAULT_LAYER";
-        };
-
-        layer_left: layer_left {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&rgb_ug RGB_COLOR_HSB(239,100,50) &to 1>;
-            label = "LAYER_LEFT";
-        };
-
-        layer_right: layer_right {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&rgb_ug RGB_COLOR_HSB(349,97,49) &to 2>;
-            label = "LAYER_RIGHT";
-        };
-
-        layer_gaming: layer_gaming {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&rgb_ug RGB_COLOR_HSB(109,96,50) &to 3>;
-            label = "LAYER_GAMING";
-        };
     };
 
     keymap {
