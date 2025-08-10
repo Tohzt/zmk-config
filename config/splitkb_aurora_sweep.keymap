@@ -85,10 +85,10 @@
 
         left_layer {
             bindings = <
-&kp F1             &kp F4          &kp F7  &kp F10  &rgb_ug RGB_BRI    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS      &kp MINUS
-&kp F2             &kp F5          &kp F8  &kp F11  &rgb_ug RGB_TOG    &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTERISK  &kp SLASH
-&mt LEFT_SHIFT F3  &kp F6          &kp F9  &kp F12  &rgb_ug RGB_BRD    &kp N7        &kp N8        &kp N9        &kp N0        &kp EQUAL
-&trans             &layer_default                                                                                &kp KP_EQUAL  &kp N0
+&kp F1             &kp F4  &kp F7  &kp F10  &rgb_ug RGB_BRI    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS      &kp MINUS
+&kp F2             &kp F5  &kp F8  &kp F11  &rgb_ug RGB_TOG    &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTERISK  &kp SLASH
+&mt LEFT_SHIFT F3  &kp F6  &kp F9  &kp F12  &rgb_ug RGB_BRD    &kp N7        &kp N8        &kp N9        &kp N0        &kp EQUAL
+&trans             &none                                                                                 &kp KP_EQUAL  &kp N0
             >;
         };
 
@@ -97,7 +97,7 @@
 &kp GRAVE             &kp EXCLAMATION  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LC(X)    &kp LG(LEFT)    &kp LG(DOWN_ARROW)  &kp LG(UP_ARROW)  &kp LG(RIGHT_ARROW)  &kp LS(GRAVE)
 &kp SQT               &kp EQUAL        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LC(C)    &kp LEFT_ARROW  &kp DOWN_ARROW      &kp UP_ARROW      &kp RIGHT            &kp SQT
 &mt LEFT_SHIFT ENTER  &kp QUESTION     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LC(V)    &kp SEMICOLON   &kp EXCLAMATION     &kp COMMA         &kp PERIOD           &kp SLASH
-&kp SPACE             &kp BACKSPACE                                                                                                                    &layer_default       &trans
+&kp SPACE             &kp BACKSPACE                                                                                                                    &none                &trans
             >;
         };
 
@@ -112,10 +112,10 @@
 
         game_layer_2 {
             bindings = <
-&kp N1  &kp N2         &kp N3  &kp N4  &kp N5    &none  &none  &none  &none  &none
-&kp N6  &kp N7         &kp N8  &kp N9  &kp N0    &none  &none  &none  &none  &none
-&kp L   &kp O          &kp M   &kp G   &kp B     &none  &none  &none  &none  &none
-&trans  &layer_gaming                                                 &none  &none
+&kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &none  &none  &none  &none  &none
+&kp N6  &kp N7  &kp N8  &kp N9  &kp N0    &none  &none  &none  &none  &none
+&kp L   &kp O   &kp M   &kp G   &kp B     &none  &none  &none  &none  &none
+&trans  &none                                                  &none  &none
             >;
         };
     };
